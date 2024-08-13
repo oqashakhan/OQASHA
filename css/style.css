@@ -819,7 +819,7 @@ footer li:hover{
         width: 100%;
     }
     .project-card{
-        transform: scale(0.8);
+        transform: scale(0.9);
     }
 }
 @media (max-width:395px) {
@@ -845,11 +845,11 @@ footer li:hover{
         width: 300px;
     }
     .project-img {
-        height: 45%;
+        height: 55%;
 
     }
     .project-contant h1{
-        font-size: 30px;
+        font-size: 35px;
     }
     .preloader img{
         width: 200px;
