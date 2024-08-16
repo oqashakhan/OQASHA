@@ -234,22 +234,24 @@
    <section id="contact" class="contact"> 
         <div class="contact-form">
             <h1>Get in touch</h1>
-            <form action="">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="c7ac207f-9007-45f8-9f03-85d1e3fe72fb">
              <div class="row">
                 <label for="">Username</label>
-                <input type="text" required placeholder="Enter your name" name="" id="">
+                <input type="text" required placeholder="Enter your name" name="name" id="">
              </div>
 
              <div class="row">
                 <label for="">Email</label>
-                <input type="text" required placeholder="Enter your Email" name="" id="">
+                <input type="email" required placeholder="Enter your Email" name="email" id="">
              </div>
 
              <div class="row">
                 <label for="">How can we help?</label>
-                <textarea cols="20" placeholder="Type your messege here."></textarea>
+                <textarea name="message" cols="20" placeholder="Type your messege here."></textarea>
              </div>
-             <button>Submit <i class="bi bi-arrow-right-short"></i></button>
+             <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+             <button type="submit">Submit <i class="bi bi-arrow-right-short"></i></button>
             </form>
         </div>
         <div class="contact-image"></div>
