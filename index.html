@@ -11,6 +11,8 @@
     <meta name="description" content="Oqasha Khan offers expert web development services at affordable prices. Specializing in HTML, CSS, and JavaScript. Contact us today!">
     <!-- Meta Keywords Tag -->
     <meta name="keywords" content="web development, HTML, CSS, JavaScript, Bootstrap, Web Developers, OQASHA, oqashakhan , OQASHAKHAN, Create Website, Best Web developer From Pakistan , Web services ,CSS Developer ,  affordable web services">
+    <!-- aos link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
      <meta name="robots" content="index, follow">
     
@@ -26,7 +28,7 @@
     <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>> Preloader <<<<<<<<<<<<<<<<<<<<<<<<< -->
     <section id="home"  class="header">
         <!-- nav start -->
-        <nav >
+        <nav data-aos="slide-down" data-aos-duration="1000">
             <h1>OQASHA <span>.</span></h1>
             <ul id="ul">
                 <a href="#home">
@@ -52,22 +54,22 @@
 
         <!-- hero start -->
         <div id="con" class="hero-con">
-            <div class="hero">
+            <div class="hero">  
                 <div class="wave">
                 </div>
                 <div class="hero-content">
-                    <h1 >Full Stack Developer</h1>
-                    <p>Hi there! I'm a full-stack web developer who loves creating beautiful and functional websites. By
+                    <h1 data-aos="fade-right" data-aos-duration="1000" >Full Stack Developer</h1>
+                    <p data-aos="fade-right" data-aos-duration="1500">Hi there! I'm a full-stack web developer who loves creating beautiful and functional websites. By
                         combining creativity with technical skills, I deliver web solutions that engage and delight
                         users. Let's make your web ideas a reality!
                     </p>
-                    <div class="button-con">
+                    <div class="button-con btn-ani">
                        <a href="#contact"> <button class="hire">Hire me</button></a>
                         <a href="#project"><button class="contect-btn">Projects</button></a>
                     </div>
 
                 </div>
-                <div class="hero-img">
+                <div data-aos="fade-left" data-aos-duration="1000" class="hero-img">
 
                 </div>
             </div>
@@ -281,7 +283,12 @@
   
 
     <script src="javascript/script.js"></script>
-   
+    <!-- aos script  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 
 </html>
